@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="timeline.css">
+    <link href="experience.css" rel="stylesheet">
+
+    <!-- Add in head section -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <i class="fas fa-code"></i>
+                <span>Devfolio</span>
+            </div>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul>
+                <li><a href="#home">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Replace the visionary section with this -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h1>Sudharshan Marimuthu</h1>
+                    <h2>Data Analyst</h2>
+                    <p>Data Analyst skilled in transforming complex data into actionable insights through ETL processes, interactive dashboards, and analytical reporting.</p>
+                    
+                    <!-- Add social links -->
+                    <!-- Update social links section -->
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/sudharshan-marimuthu-456827350" target="_blank" class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/git-hub-Sudharshan" target="_blank" class="social-icon">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="tel:+916374263061" class="social-icon">
+                            <i class="fas fa-phone"></i>
+                        </a>
+                        <a href="mailto:sudharshanmarimuthu1@gmail.com" class="social-icon">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero__buttons">
+                        <a href="cv.pdf" class="btn btn-primary" download>
+                            <i class="fas fa-download"></i> Download CV
+                        </a>
+                        <a href="#projects" class="btn btn-secondary">
+                            <i class="fas fa-eye"></i> View Portfolio
+                        </a>
+                    </div>
+                </div>
+                <!-- Update the hero__img section -->
+                <div class="hero__img">
+                    <div id="particles-js"></div>
+                    <img src="./assets/images/SUDARSHAN-removebg-preview.png" alt="Sudharshan Marimuthu - Data Analyst">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Remove the About Section and go directly to Skills Section -->
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <!-- Data Analysis Skills -->
+                <div class="skill-card primary">
+                    <h3>Data Analysis & BI Tools</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-database"></i>SQL & Database Management</li>
+                        <li><i class="fas fa-chart-bar"></i>Power BI & DAX</li>
+                        <li><i class="fas fa-file-excel"></i>Advanced Excel Analytics</li>
+                        <li><i class="fas fa-chart-line"></i>Tableau Dashboards</li>
+                        <li><i class="fab fa-python"></i>Python Data Analysis</li>
+                        <li><i class="devicon-pandas-original"></i>Pandas & NumPy</li>
+                        <li><i class="fas fa-chart-line"></i>Data Visualization</li>
+                        <li><i class="fas fa-project-diagram"></i>Data Modeling</li>
+                        <li><i class="fas fa-cogs"></i>ETL Processes</li>
+                    </ul>
+                </div>
+
+                <!-- Frontend Development -->
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-react"></i>React.js & Next.js</li>
+                        <li><i class="fab fa-html5"></i>HTML5</li>
+                        <li><i class="fab fa-css3-alt"></i>CSS3</li>
+                        <li><i class="fab fa-js"></i>JavaScript</li>
+                        <li><i class="fab fa-bootstrap"></i>Bootstrap</li>
+                        <li><i class="fab fa-sass"></i>Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <!-- Development Tools -->
+                <div class="skill-card">
+                    <h3>Development Tools</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-git-alt"></i>Git & GitHub</li>
+                        <li><i class="fas fa-code-branch"></i>Version Control</li>
+                        <li><i class="fas fa-terminal"></i>Command Line</li>
+                        <li><i class="fas fa-code"></i>VS Code</li>
+                        <li><i class="fas fa-laptop-code"></i>Cross-Platform</li>
+                    </ul>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="skill-card">
+                    <h3>Professional Skills</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-chart-pie"></i>Data Storytelling</li>
+                        <li><i class="fas fa-lightbulb"></i>Problem Solving</li>
+                        <li><i class="fas fa-users"></i>Team Collaboration</li>
+                        <li><i class="fas fa-tasks"></i>Project Management</li>
+                        <li><i class="fas fa-brain"></i>Critical Thinking</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <div class="tab-container">
+            <h2 data-aos="fade-down" data-aos-duration="800">Projects</h2>
+            <p class="section-subtitle" data-aos="fade-down" data-aos-duration="800" data-aos-delay="200">
+                Explore my data analysis and frontend development projects
+            </p>
+            <div class="tab-nav" data-aos="fade-up" data-aos-duration="800">
+                <button class="tab-link active" data-tab="tab-1">Data Analysis</button>
+                <button class="tab-link" data-tab="tab-2">Frontend Development</button>
+            </div>
+            <div class="tab-content">
+                <!-- Data Analysis Projects -->
+                <div id="tab-1" class="tab-pane active">
+                    <div class="projects-grid">
+                        <div class="project-card" data-aos="fade-right" data-aos-duration="800">
+                            <img src=".\assets\images\projects\dataAnalysis\Screenshot 2025-03-29 104526.png" alt="Data Analysis Project 1">
+                            <div class="project-content">
+                                <h3>Blinkit Analysis</h3>
+                                <p>This project presents a comprehensive Power BI dashboard for analyzing Blinkit's sales performance, customer satisfaction, and inventory distribution. The dashboard provides key insights and opportunities for optimization using various KPIs and visualizations...</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://app.powerbi.com/reportEmbed?reportId=26d4892a-4464-4971-bf7a-e5dc2bd25a25&autoAuth=true&ctid=61606e22-6948-4e14-b4ca-f2766713d43e" class="btn">
+                                        <i class="fas fa-chart-bar"></i> Power BI Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-up" data-aos-duration="800">
+                            <img src=".\assets\images\projects\dataAnalysis\Screenshot 2025-03-29 102544.png" alt="Data Analysis Project 2">
+                            <div class="project-content">
+                                <h3>Retaile Analysis</h3>
+                                <p>Comprehensive market analysis with predictive modeling and trend forecasting...</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://app.powerbi.com/reportEmbed?reportId=a1ba9855-448c-439d-838d-bc2bdabbcce9&autoAuth=true&ctid=61606e22-6948-4e14-b4ca-f2766713d43e" class="btn">
+                                        <i class="fas fa-chart-bar"></i> Power BI Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-left" data-aos-duration="800">
+                            <img src=".\assets\images\projects\dataAnalysis\Screenshot 2025-03-29 103329.png" alt="Data Analysis Project 3">
+                            <div class="project-content">
+                                <h3>EV vehicle Analytics</h3> 
+                                <p>Financial performance visualization and metrics tracking dashboard...</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://public.tableau.com/app/profile/sudharshan.m4825/viz/electricvehicleanalysistableau/ELECTRICVEHICLEDATAANALYSIS?publish=yes" class="btn">
+                                        <i class="fas fa-chart-line"></i> Tableau Demo
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Frontend Development Projects -->
+                <div id="tab-2" class="tab-pane">
+                    <div class="projects-grid">
+                        <div class="project-card" data-aos="fade-right" data-aos-duration="800">
+                            <img src=".\assets\images\projects\frontEndDeveloper\Screenshot 2025-04-17 123927.png" alt="E-commerce Website">
+                            <div class="project-content">
+                                <h3>E-commerce Platform</h3>
+                                <p>Responsive e-commerce website built with React.js and Tailwind CSS.</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://mybeyth.com/" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-card" data-aos="fade-left" data-aos-duration="800">
+                            <img src=".\assets\images\projects\frontEndDeveloper\Screenshot 2025-04-17 123955.png" alt="Portfolio Website">
+                            <div class="project-content">
+                                <h3>Personal Portfolio</h3>
+                                <p>Modern portfolio website showcasing skills and projects with interactive elements.</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://www.tryzonelifecare.com/" class="btn btn-primary">View Project</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-left" data-aos-duration="800">
+                            <img src=".\assets\images\projects\frontEndDeveloper\Screenshot 2025-04-17 124059.png" alt="Portfolio Website">
+                            <div class="project-content">
+                                <h3>Personal Portfolio</h3>
+                                <p>Modern portfolio website showcasing skills and projects with interactive elements.</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://www.sanlak.in/" class="btn btn-primary">View Project</a>
+                                   
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="project-card" data-aos="fade-left" data-aos-duration="800">
+                            <img src=".\assets\images\projects\frontEndDeveloper\Screenshot 2025-04-17 124223.png" alt="Portfolio Website">
+                            <div class="project-content">
+                                <h3>Personal Portfolio</h3>
+                                <p>Modern portfolio website showcasing skills and projects with interactive elements.</p>
+                                <div class="project-buttons">
+                                    <a target="_blank" href="https://healthsy.app/" class="btn btn-primary">View Project</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <!-- After Skills Section -->
+    <section id="education" class="education-section">
+        <div class="container">
+            <h2>My Experience</h2>
+            <p class="section-subtitle">Career Journey and Education</p>
+            
+            <div class="timeline">
+                <div class="timeline-row">
+                    <div class="timeline-date">December 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Data Scientist - Intern</h3>
+                        <p>Besant, Chennai</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Online Internship in Data Science</li>
+                                <li>Working on real-world data analysis projects</li>
+                                <li>Implementing machine learning models</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-row">
+                    <div class="timeline-date">April 2024 - October 2024</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Web Developer</h3>
+                        <p>Cloudi5 Technologies, Coimbatore</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Developed responsive web applications</li>
+                                <li>Collaborated with design and backend teams</li>
+                                <li>Implemented modern frontend frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-row">
+                    <div class="timeline-date">May 2023 - December 2023</div>
+                    <div class="timeline-content">
+                        <h3>Frontend Web Developer</h3>
+                        <p>HoneyIconics Technologies, Coimbatore</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Built user-friendly web interfaces</li>
+                                <li>Optimized website performance</li>
+                                <li>Worked on multiple client projects</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-row">
+                    <div class="timeline-date">2020 - May 2023</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Science</h3>
+                        <p>Kongunadu Arts and Science College</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Major in Computer Science</li>
+                                <li>Relevant coursework in Data Structures and Algorithms</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="timeline-row">
+                    <div class="timeline-date">2018 - 2020</div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary School (HSC)</h3>
+                        <p>KV Matriculation Higher Secondary School</p>
+                        <div class="timeline-description">
+                            <ul>
+                                <li>Computer Science Stream</li>
+                                <li>Mathematics and Science Focus</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Cards -->
+    <div id="contact" class="contact-cards">
+        <!-- Update in contact cards section -->
+        <div class="contact-card-wrapper">
+            <div class="contact-card-item">
+                <div class="icon-wrapper">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/sudharshan-marimuthu-456827350" target="_blank">Connect with me</a>
+            </div>
+            <div class="contact-card-item">
+                <div class="icon-wrapper">
+                    <i class="fab fa-github"></i>
+                </div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/git-hub-Sudharshan" target="_blank">View Projects</a>
+            </div>
+            <div class="contact-card-item">
+                <div class="icon-wrapper">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <h3>Phone</h3>
+                <a href="tel:+916374263061">+91 6374263061</a>
+            </div>
+            <div class="contact-card-item">
+                <div class="icon-wrapper">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <h3>Email</h3>
+                <a href="mailto:sudharshanmarimuthu1@gmail.com">sudharshanmarimuthu1@gmail.com</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Sudharshan. All rights reserved.</p>
+    </footer>
+
+    <!-- Add these scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS("particles-js", {
+            "particles": {
+                "number": { "value": 80, "density": { "enable": true, "value_area": 800 } },
+                "color": { "value": ["#0066ff", "#ff0066"] },
+                "shape": { "type": "circle" },
+                "opacity": { "value": 0.5, "random": false },
+                "size": { "value": 3, "random": true },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#0066ff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": { "enable": true, "mode": "repulse" },
+                    "onclick": { "enable": true, "mode": "push" },
+                    "resize": true
+                }
+            },
+            "retina_detect": true
+        });
+    </script>
+    <!-- Before closing </body> tag -->
+    <script src="script.js"></script>
+
+
+<!-- Add this in the head section -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.4/js/lightbox.min.js"></script>
+
+<!-- Add this before the closing body tag -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
