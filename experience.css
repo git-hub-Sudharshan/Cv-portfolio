@@ -437,9 +437,9 @@
 
 .project-content {
     padding: 15px;
-    flex: 1;
+    /* flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .project-content p {
@@ -491,15 +491,15 @@
     transition: transform 0.3s, box-shadow 0.3s;
     display: flex;
     flex-direction: column;
-    height: 450px;
+    height: 350px;
     width: 320px;
 }
 
 .project-content {
-    padding: 10px 8px;  /* Reduced padding */
-    flex: 1;
+    padding: 48px 8px;  /* Reduced padding */
+    /* flex: 1;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; */
 }
 
 .project-buttons {
